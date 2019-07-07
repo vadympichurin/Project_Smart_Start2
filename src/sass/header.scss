@@ -1,0 +1,326 @@
+
+.header{
+    padding-top: 21px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/header_main3.png);
+    position: relative;
+    // margin-bottom: 173px;
+    padding-bottom: 75px;
+}
+.header__container {
+    width: 290px;
+    margin: 0 auto;
+}
+.header__navigation {
+    background-color: #fff;
+    background-size: cover;
+    height: 80px;
+    margin-bottom: 75px;
+}
+.header__item1 {
+    color: #1ab798;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -6px;
+}
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 15px 31px 15px;
+    background-size: cover;
+}
+.header__list2 {
+    width: 260px;
+}
+.header__item--text {
+    display: none;
+}
+.header__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header__link {
+    text-decoration: none;
+    color: #1ab798;
+    font-weight: 700;
+}
+// .header__item2 {
+// }
+.header__burger {
+    width: 28px;
+    height: 19px;
+    margin-bottom: 31px;
+    margin-left: -38px;
+}
+.header__link:active {
+    text-decoration: none;
+    color: #1ab798;
+}
+.header__link:hover {
+    text-decoration: none;
+    color: #1ab798;
+}
+.header__item2:hover .burger {
+    display: none;
+}
+.header__hidden--menu {
+    display: none;
+    background-color: #fff;
+    height: 467px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 101px;
+    padding-top: 30px;
+}
+.header__item2:hover .header__item--text {
+    display: block;
+}
+.header__item2:hover .header__item--text2 {
+    display: none;
+}
+.header__item2:hover .header__hidden--menu {
+    display: flex;
+    justify-content: center;
+}
+.header__item--text {
+    color: #969696;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.header__hidden--item {
+    margin-bottom: 30px;
+}
+.header__item--text:hover {
+    color: #282629;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.header__title {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.header__subtitle {
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+    width: 187px;
+    margin-bottom: 31px; 
+}
+.header__section {
+    padding: 40px 10px;
+    width: 307px;
+    margin-left: 0;
+}
+.header__text2 {
+    display: inline-block;
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+.header__text2::before {
+    content: '>';
+    margin-right: 4px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+}
+.header__button {
+    border: none;
+    background-color: #1ab798;
+    // width: 211px;
+    // height: 48px;
+    border-radius: 10px;
+    padding: 10px 40px 10px 20px;
+    cursor: pointer;
+}
+.header__button--img {
+    display: inline-block;
+    width: 36px;
+    height: 24px;
+}
+.header__button--link {
+    display: inline-block;
+    color: #fff;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.header__button--link:hover {
+    color: #fff;  
+}
+.header__item--text2 {
+    display: none;
+}
+.iphones {
+    display: none;
+}
+
+
+@media (min-width: 768px){
+
+    .header {
+        // background-image: url(../images/header_main2.png);
+        margin-right: 0px;
+    }
+    .header__list3 {
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+    }
+    .header__container {
+        width: 708px;
+        position: realtive;
+    }
+    .header__navigation {
+        background-size: cover;
+    }
+    .header__hidden--menu {
+        background-size: cover;
+    }
+    .header__list {
+        background-size: cover;
+    }
+    .header__section {
+        margin-left: 16px;
+        width: 449px;
+    }
+    .header__burger {
+        display: none;
+    }
+    .header__hidden--item2 {
+        display: inline-block;
+    }
+    .header__item2:hover .header__hidden--menu {
+        display: none;
+    }
+    .header__title {
+        font-size: 34px;
+    }
+    .header__list2 {
+        width: 350px;
+    }
+    .header__subtitle {
+        font-size: 18px;
+        width: 348px;
+    }
+    .iphones {
+        display: block;
+        position: relative;
+        right: -23px;
+        top: -375px;
+    }
+    .iphone2 {
+        width: 318px;
+        height: 550px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .iphone1 {
+        width: 280px;
+        height: 444px;
+        position: absolute;
+        top: 63px;
+        right: 85px;
+        z-index: 2;
+    }
+    .header__item--text2 {
+        display: block;
+        color: #969696;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .header__item--text2:hover {
+        color: #282629;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+    .header__item2:hover .header__item--text2 {
+        display: block;
+    }
+    .header__list2 {
+        margin-bottom: 79px;
+    }
+    .header__special--text2 {
+        margin-bottom: 0px;
+    }
+
+}
+@media (min-width: 1200px){
+    .header__container {
+        width: 1120px;
+    }
+    
+    .header__navigation {
+        background-size: cover;
+    }
+    .header__hidden--menu {
+        background-size: cover;
+    }
+    .header__list {
+        background-size: cover;
+    }
+    .header__burger {
+        display: none;
+    }
+    .header__hidden--item2 {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .header__item2:hover .header__hidden--menu {
+        display: none;
+    }
+    .header__title {
+        font-size: 40px;
+    }
+    .header__subtitle {
+        font-size: 20px;
+        width: 348px;
+    }
+    .iphones {
+        display: block;
+        position: relative;
+        right: 90px;
+        top: -375px;
+    }
+    .iphone2 {
+        width: 318px;
+        height: 550px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .iphone1 {
+        width: 280px;
+        height: 444px;
+        position: absolute;
+        top: 63px;
+        right: 85px;
+        z-index: 2;
+    }
+    .header__item--text2 {
+        display: block;
+        color: #969696;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+    .header__item--text2:hover {
+        color: #282629;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+    .header__item2:hover .header__item--text2 {
+        display: block;
+    }
+}
